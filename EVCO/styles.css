@@ -1,8 +1,10 @@
+/* Set the font family and base font size for the entire HTML document */
 html {
     font-family: Montserrat;
     font-size: 62.5%;
 }
 
+/* Set the font size, weight, margin, color, background color, and font family for the body element */
 body {
     font-size: 14px;
     font-weight: bold;
@@ -12,14 +14,18 @@ body {
     font-family: 'Montserrat';
 }
 
+/* Set the initial opacity and transition effect for elements with the 'fade-in' class */
 .fade-in {
     opacity: 0;
     transition: opacity 2s ease-out;
 }
+
+/* Set the opacity for elements with the 'fade-in' and 'visible' classes */
 .fade-in.visible {
     opacity: 1;
 }
 
+/* Set the font size, family, color, and style for h3 elements */
 h3 {
     font-size:x-large;
     font-family: 'Montserrat';
@@ -27,7 +33,7 @@ h3 {
     font-style: italic;
 }
 
-
+/* Set the background color, text color, font family, display type, alignment, padding for the 'top-header' ID */
 #top-header {
     background-color: black;
     color: white;
@@ -38,16 +44,19 @@ h3 {
     padding: 1px;
 }
 
+/* Set the margin for the 'call-button-container' and 'social-icon-container' classes */
 .call-button-container,
 .social-icon-container {
     margin: 0 2px; /* Adjust as needed */
 }
 
+/* Set the width and height for the 'social-icon' class */
 .social-icon {
     width: 30px; /* Adjust as needed */
     height: 30px; /* Adjust as needed */
 }
 
+/* Set the overflow, padding, line height, display type, alignment, position, and z-index for the 'header' class */
 .header {
     overflow: auto;
     padding: 0%;
@@ -59,7 +68,7 @@ h3 {
     z-index: 2;
 }
 
-
+/* Set the position, background image, background size, width, height, padding, font family, font size, and overflow for the 'home' ID */
 #home {
     position: relative;
     background: url('./exce.1.jpg') no-repeat center center fixed; 
@@ -75,6 +84,7 @@ h3 {
     overflow: auto;
 }
 
+/* Set the display type, background color, text color, padding, text alignment, text decoration, font size, margin, and cursor for the 'call-button' class */
 .call-button {
     display: inline-block;
     background-color: #ae67ff;
@@ -87,6 +97,7 @@ h3 {
     cursor: pointer;
 }
 
+/* Set the height, display type, alignment, and position for the 'button-container' class */
 .button-container {
     height: 100%;
     display: flex;
@@ -95,11 +106,13 @@ h3 {
     position: relative;
 }
 
+/* Set the content and height for the '::before' pseudo-element of the 'button-container' class */
 .button-container::before {
     content: "";
     height: 100%;
 }
 
+/* Set the position, bottom offset, width, margin, padding, border, box shadow, border radius, cursor, transition properties, color, background color, font, text decoration, and text alignment for the 'quote-button' class */
 .quote-button {
     position: relative;
     bottom: 70px;
@@ -121,16 +134,18 @@ h3 {
     text-align: center;
 }
 
+/* Set the color and background color for the 'quote-button' class when hovered */
 .quote-button:hover {
-color: white;
-background-color: #ae67ff;
+    color: white;
+    background-color: #ae67ff;
 }
 
-
+/* Set the font family for h1, h2, h3, h4, h6 elements */
 h1, h2, h3, h4, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Set the font family, weight, size, text transform, text alignment, color, and background color for h5 elements */
 h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -142,6 +157,7 @@ h5 {
     text-indent: -153px;
 }
 
+/* Set the background color, padding, and border for the 'grey-box' class */
 .grey-box {
     background-color: black;
     padding: 5px;
@@ -149,6 +165,7 @@ h5 {
     border: 3px solid #ae67ff;
 }
 
+/* Set the line height, weight, size, text transform, text alignment, color, text shadow, and font family for h1 elements */
 h1 {
     line-height: 50px;
     font-weight: 900;
@@ -160,6 +177,7 @@ h1 {
     font-family: 'Montserrat';
 }
 
+/* Set the display, content, height, width, background, margin, box shadow, and font family for the '::after' pseudo-element of h1 elements */
 h1::after {
     display: block;
     content: " ";
@@ -171,6 +189,7 @@ h1::after {
     font-family: 'Montserrat';
 }
 
+/* Set the size, style, font family, text alignment, and bottom margin for h2 elements */
 h2 {
     font-size: 30px;
     font-style: normal;
@@ -179,7 +198,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-
+/* Set the padding and margin for the 'container' class */
 .container {
     padding-right: 10px;
     padding-left: 10px;
@@ -188,24 +207,27 @@ h2 {
     font-family: 'Montserrat';
 }
 
+/* Set the right and left margin for the 'row' class */
 .row {
     margin-right: -10px;
     margin-left: -10px;
 }
 
-
+/* Set the size, line height, and color for p elements */
 p {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
 }
 
+/* Set the list style type, font family, and padding for ul elements */
 ul {
     list-style-type: none;
     font-family: 'Montserrat';
     padding: 0;
 }
 
+/* Set the size, line height, color, bottom margin, and weight for li elements inside ul elements */
 ul li {
     font-size: 18px;
     line-height: 1.4;
@@ -214,16 +236,19 @@ ul li {
     font-weight: 500;
 }
 
+/* Set the size for li elements */
 li {
     font-size: 20px;
 }
 
+/* Set the font family, size, and line height for li elements inside elements with the 'content-text' class */
 .content-text li {
     font-family: 'Montserrat'  !important;
     font-size: 20px;
     line-height: 1.9;
 }
 
+/* Set the position, top offset, left offset, transform, color, text shadow, size, text alignment, and font family for the 'slogan' ID */
 #slogan {
     position: absolute;
     /* Adjust these values to position your slogan */
@@ -253,14 +278,14 @@ li {
     }
 }
 
+/* Set the top and bottom margin, color, and font family for the 'home-text' class */
 .home-text {
     margin: 20px 0;
     color: black;
     font-family: 'Montserrat';
 }
 
-
-
+/* Set the display type, flex direction, justify content, font family, and size for the 'home-flex-container' class */
 .home-flex-container {
     display: flex;
     flex-direction: column;
@@ -269,6 +294,7 @@ li {
     font-size: large;
 }
 
+/* Set the font family, width, weight, and text alignment for the 'home-flex-item' class */
 .home-flex-item {
     font-family: 'Montserrat';
     width: 100%;
@@ -276,6 +302,7 @@ li {
     text-align: center;
 }
 
+/* Set the background color, padding, and box shadow for the 'text-center' class */
 .text-center {
     background-color: #f5f5f5;
     padding: 20px;
@@ -283,12 +310,14 @@ li {
     font-family: 'Montserrat';
 }
 
+/* Set the border, border top, and margin for hr elements */
 hr {
     border: none;
     border-top: 1px solid #333;
     margin: 20px 0;
 }
 
+/* Set the height, width, bottom padding, top padding, and z-index for images inside elements with the 'logo' class */
 .logo img {
     height: 185px;
     width: 370px;
@@ -297,6 +326,7 @@ hr {
     z-index: 1;
 }
 
+/* Adjust the width and height for images inside elements with the 'logo' class on screens with a maximum width of 768px */
 @media only screen and (max-width: 768px) {
     .logo img {
         width: 100%;
@@ -304,6 +334,7 @@ hr {
     }
 }
 
+/* Adjust the width and height for images inside elements with the 'logo' class on screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
     .logo img {
         width: 100%;
@@ -311,6 +342,7 @@ hr {
     }
 }
 
+/* Set the position, right offset, top offset, display type, flex direction, justify content, width, height, cursor, and z-index for the 'hamburger-menu' class */
 .hamburger-menu {
     position: fixed;
     right: 10px;
@@ -324,18 +356,21 @@ hr {
     z-index: 2;
 }
 
+/* Set the width, height, and background color for div elements inside the 'hamburger-menu' class */
 .hamburger-menu div {
     width: 2rem;
     height: 0.25rem;
     background-color:#ae67ff;
 }
 
+/* Set the display type, justify content, and flex grow for the 'menu-container' class */
 .menu-container {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
 }
 
+/* Set the display type, justify content, width, color, font, text alignment, display, margin, padding, list style, and text decoration for the 'menu' class */
 .menu {
     display: flex;
     justify-content: space-around;
@@ -350,6 +385,7 @@ hr {
     text-decoration: none;
 }
 
+/* Set the color, background color, display type, margin, position, padding, border, box shadow, border radius, cursor, transition properties for li elements inside the 'menu' class */
 .menu li {
     color: black;
     background-color: #e6e6e6;
@@ -367,49 +403,57 @@ hr {
     transition-timing-function: ease-in-out;
 }
 
+/* Set the color and background color for li elements inside the 'menu' class when hovered */
 .menu li:hover {
     color: white;
     background-color: #ae67ff;
 }
 
-
+/* Set the display type, grid template columns, and gap for the 'services' class */
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 5px;
 }
 
+/* Set the font family, size, and line height for li elements inside the 'services' class */
 .services li {
     font-family: 'Montserrat'  !important;
     font-size: 18px;
     line-height: 1.5;
 }
 
+/* Set the border and padding for the 'service' class */
 .service {
     border: 2px solid #ae67ff;
     padding: 5px;
 }
 
+/* Set the text decoration and color for a elements inside the 'service' class */
 .service a {
     text-decoration: none; /* Removes underline */
     color: inherit; /* Inherits the color of the parent element */
 }
 
+/* Remove the text decoration for a elements inside the 'service' class when hovered */
 .service a:hover {
     text-decoration: none;
 }
 
+/* Set the position, width, and height for the 'service-image' class */
 .service-image {
     position: relative;
     width: 100%;
     height: 85%;
 }
 
+/* Set the width and height for img elements inside the 'service-image' class */
 .service-image img {
     width: 100%;
     height: 80%;
 }
 
+/* Set the position, top offset, left offset, transform, color, font style, and font family for the 'service-title' class */
 .service-title {
     position: absolute;
     top: 7%;
@@ -420,11 +464,13 @@ hr {
     font-family: 'Montserrat';
 }
 
+/* Set the color and text shadow for h2 elements inside the 'service-title' class */
 .service-title h2 {
     color: black;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+/* Set the display type, margin, padding, border, box shadow, border radius, cursor, transition properties, color, background color, font, text decoration, and text alignment for the 'services-button' class */
 .services-button {
     display: inline-block;
     margin: 0% auto;
@@ -443,7 +489,8 @@ hr {
     text-decoration: none;
     text-align: center;
 }
-  
+
+/* Set the color and background color for the 'services-button' class when hovered */
 .services-button:hover {
     color: white;
     background-color: #ae67ff;
@@ -453,6 +500,7 @@ hr {
     GALLERY SECTION ANIMATION
 ------------------------------------*/
 
+/* Set the position, line height, bottom margin, overflow, border radius, padding, border, background color, and box shadow for the 'photo' class */
 .photo {
     position: relative;
     line-height: 0;
@@ -465,6 +513,7 @@ hr {
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
+/* Set the text alignment, margin, width, and height for the 'photo-container' class */
 .photo-container {
     text-align: center;
     margin: 15px auto;
@@ -472,6 +521,7 @@ hr {
     height: 169px;
 }
 
+/* Set the text alignment, margin, width, height, and display type for a elements with the 'photo-container' class */
 a.photo-container {
     text-align: center;
     margin: 15px auto;
@@ -480,12 +530,14 @@ a.photo-container {
     display: inline-block;
 }
 
+/* Set the max width, width, and height for img elements inside the 'photo-container' class */
 .photo-container img {
     max-width: 100%;
     width: 300px;
     height: 169px;
 }
 
+/* Set the color, position, top offset, right offset, bottom offset, left offset, display type, padding, justify content, align items, and background for the 'photo-overlay' class */
 .photo-overlay {
     color: #fff;
     position: absolute;
@@ -501,6 +553,7 @@ a.photo-container {
     background: rgba(0, 0, 0, 0.5);
 }
 
+/* Set the display type, position, z-index, top padding, left offset, top offset, width, height, overflow, and background color for the 'modal' class */
 .modal {
     display: none;
     position: fixed;
@@ -513,13 +566,15 @@ a.photo-container {
     overflow: auto;
     background-color: rgba(0,0,0,0.9);
 }
-  
+
+/* Set the margin, display type, and max width for the 'modal-content' class */
 .modal-content {
     margin: auto;
     display: block;
     max-width: 80%;
 }
 
+/* Set the position, top offset, right offset, color, size, weight, and transition for the 'closeBtn' ID */
 #closeBtn {
     position: absolute;
     top: 15px;
@@ -529,7 +584,8 @@ a.photo-container {
     font-weight: bold;
     transition: 0.3s;
 }
-  
+
+/* Set the color, text decoration, and cursor for the 'closeBtn' ID when hovered or focused */
 #closeBtn:hover,
 #closeBtn:focus 
 {
@@ -538,8 +594,7 @@ a.photo-container {
     cursor: pointer;
 }
 
-
-
+/* Set the color and top margin for the 'white-head' class */
 .white-head {
     color: white;
     margin-top: 5%;
@@ -549,6 +604,7 @@ a.photo-container {
     Photo Overlay Transitions
 ------------------------------------*/
 
+/* Set the opacity, transition, border radius, and cursor for the 'photo-overlay' class */
 .photo-overlay {
     opacity: 0;
     transition: opacity 0.5s;
@@ -556,15 +612,18 @@ a.photo-container {
     cursor: pointer;
 }
 
+/* Set the opacity for the 'photo-overlay' class when hovered */
 .photo-overlay:hover {
     opacity: 1;
 }
 
+/* Set the transition and transform origin for img elements inside the 'photo' class */
 .photo img {
     transition: transform 0.5s;
     transform-origin: 50% 50%;
 }
 
+/* Transform img elements inside the 'photo' class when hovered */
 .photo:hover img {
     transform: scale(1.1);
 }
@@ -572,6 +631,8 @@ a.photo-container {
 /*------------------------------------
     Contact STYLES
 ------------------------------------*/
+
+/* Set the display type, flex wrap, padding, border radius, margin, background color, and box shadow for the 'flex-container' class */
 .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -582,6 +643,7 @@ a.photo-container {
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
+/* Set the width, text alignment, margin, color, weight, size, and background color for h2 elements inside the 'contact' class */
 .contact h2 {
     width: 70%;
     text-align: center;
@@ -592,12 +654,12 @@ a.photo-container {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-
+/* Set the minimum height for the 'services' ID */
 #services {
     min-height: 100vh; /* Adjust this value as needed */
 }
 
-
+/* Set the width, padding, border radius, margin, background color, border, box shadow, and bottom margin for the 'reservation' class */
 .reservation {
     width: 70%;
     padding: 15px;
@@ -609,6 +671,7 @@ a.photo-container {
     margin-bottom: 100px;
 }
 
+/* Set the width, text alignment, margin, color, weight, size, and font family for h2 elements inside the 'reservation' class */
 .reservation h2 {
     width: 80%;
     text-align: center;
@@ -619,12 +682,14 @@ a.photo-container {
     font-family: 'Montserrat';
 }
 
+/* Set the color, width, and margin for p elements inside the 'reservation' class */
 .reservation p {
     color: white;
     width: 50%;
     margin: 0 auto;
 }
 
+/* Set the size, outline, weight, color, padding, width, border, margin, border radius, background, box shadow, and font family for form elements inside the 'reservation' class */
 .reservation form {
     font-size: 15px;
     outline: none;
@@ -640,6 +705,7 @@ a.photo-container {
     font-family: 'Montserrat';
 }
 
+/* Set the size, outline, weight, color, padding, width, border, margin, border radius, background, box shadow, and font family for text input elements inside the 'reservation' class */
 .reservation input[type="text"] {
     font-size: 15px;
     outline: none;
@@ -658,15 +724,18 @@ a.photo-container {
     font-family: 'Montserrat' , sans-serif;
 }
 
+/* Set the box shadow for text input elements inside the 'reservation' class when hovered */
 .reservation input[type="text"]:hover {
     box-shadow: 0 0 18px #ae67ff;
 }
 
+/* Set the color and border color for the 'submit-button' class */
 .submit-button {
     color: black !important;
     border-color: black;
 }
 
+/* Set the color, background color, box shadow, cursor, weight, outline, text alignment, font family, margin, transition, and border radius for the 'submit-button' class when hovered */
 .submit-button:hover {
     color: white !important;
     background-color: #ae67ff;
@@ -679,9 +748,9 @@ a.photo-container {
     margin: 0px 3%;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 2px;
-
 }
 
+/* Set the color, cursor, border, weight, outline, text alignment, font family, margin, padding, width, size, transition, border radius, background color, and box shadow for submit input elements inside the 'submit' class */
 .submit input[type="submit"]{
     color: #ae67ff !important;
     cursor: pointer;
@@ -700,6 +769,7 @@ a.photo-container {
     box-shadow: 1px 1px 4px 0 black;
 }
 
+/* Set the color, background color, and box shadow for submit input elements inside the 'submit' class when hovered */
 .submit input[type="submit"]:hover{
     color: #ae67ff;
     background-color: #ae67ff;
@@ -709,6 +779,8 @@ a.photo-container {
 /*------------------------------------
     FOOTER STYLES
 ------------------------------------*/
+
+/* Set the background color, border color, border, border top, border bottom, color, padding, and text alignment for the 'footer' ID */
 #footer {
     background-color: #ae67ff;
     border-color: black;
@@ -720,12 +792,14 @@ a.photo-container {
     text-align: center;
 }
 
+/* Set the display type, align items, and justify content for the 'footer-content' class */
 .footer-content {
     display: flex;
     align-items: center;
     justify-content: center; /* Adjust as needed */
 }
 
+/* Set the width and height for the 'footer-social-icon' class */
 .footer-social-icon {
     width: 12px; /* Adjust as needed */
     height: 12px; /* Adjust as needed */
@@ -735,18 +809,21 @@ a.photo-container {
     @MEDIA QUERIES
 ------------------------------------*/
 
+/* Adjust the font size for the 'head-main' class on screens with a maximum width of 640px and a minimum width of 381px */
 @media all and (max-width: 640px) and (min-width: 381px)  {
     .head-main {
         font-size: 28px;
     }
 }
 
+/* Adjust the font size for the 'head-main' class on screens with a maximum width of 381px and a minimum width of 200px */
 @media all and (max-width: 381px) and (min-width: 200px)  {
     .head-main {
         font-size: 24px;
     }
 }
 
+/* Set the width, display type, and display type for the 'container', 'menu-container', and 'hamburger-menu' classes respectively on screens with a minimum width of 768px */
 @media (min-width: 768px)  {
     .container {
         width: 750px;
@@ -759,18 +836,21 @@ a.photo-container {
     }
 }
 
+/* Set the width for the 'container' class on screens with a minimum width of 992px */
 @media (min-width: 992px)  {
     .container {
         width: 970px;
     }
 }
 
+/* Set the width for the 'container' class on screens with a minimum width of 1200px */
 @media (min-width: 1200px)  {
     .container {
         width: 1170px;
     }
 }
 
+/* Set the flex direction, display type, width, position, top offset, left offset, height, background color, align items, justify content, display type, display type, flex direction, text alignment, width, and height for the 'header', 'menu-container', 'hamburger-menu', 'menu', and 'menu li' classes respectively on screens with a maximum width of 768px */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -802,6 +882,7 @@ a.photo-container {
 
 /* For tablets */
 @media (max-width: 768px) {
+    /* Adjust the grid template columns for the 'services' class to fit the screen size */
     .services {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
     }
@@ -809,6 +890,7 @@ a.photo-container {
 
 /* For mobile phones */
 @media (max-width: 480px) {
+    /* Stack the boxes vertically in the 'services' class to fit the screen size */
     .services {
         grid-template-columns: 1fr; /* Stacks the boxes vertically */
     }
