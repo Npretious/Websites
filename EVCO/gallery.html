@@ -1,0 +1,232 @@
+<!DOCTYPE html> <!-- This line is a document type declaration, which is an instruction to the web browser about what version of HTML the page is written in. -->
+<html lang="en"> <!-- This line starts the HTML document and specifies the language of the document. -->
+
+<head> <!-- This line starts the head element, which contains meta-information about the document. -->
+	<meta charset="utf-8"> <!-- This line specifies the character encoding for the HTML document. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- This line gives the browser instructions on how to control the page's dimensions and scaling. -->
+	<meta name="description" content="Concrete cutting, excavation & demolition services. Low cost guarantee."> <!-- This line provides a description of the web page. -->
+	<title>EVCO Contracting</title> <!-- This line specifies a title for the web document. -->
+	<link rel="icon" href="./favicon.ico" type="image/x-icon"> <!-- This line links a favicon (shortcut icon) to the web page. -->
+	<link rel="stylesheet" href="./styles.css"> <!-- This line links an external CSS file to style the web page. -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> <!-- This line includes the ScrollMagic library, which is a JavaScript library for creating scroll animations. -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script> <!-- This line includes the GSAP (GreenSock Animation Platform) plugin for ScrollMagic. -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script> <!-- This line includes the GSAP library, which is a JavaScript library for creating high-performance animations. -->
+	<!-- Google tag (gtag.js) --> <!-- This line is a comment, providing extra information about the code that follows. -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11426771581"></script> <!-- This line includes the Google Analytics script for tracking website traffic. -->
+	<script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-11426771581');</script> <!-- This line initializes Google Analytics. -->
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script> <!-- This line includes the AMP Analytics script for tracking website traffic. -->
+</head> <!-- This line ends the head element. -->
+
+<body> <!-- This line starts the body element, which contains the content of the document. -->
+	<!--TOP HEADER --> <!-- This line is a comment, indicating the start of the top header section. -->
+	<div id="top-header"> <!-- This line starts a div element for the top header. -->
+		<div class="call-button-container"> <!-- This line starts a div element for the call button container. -->
+			<a href="tel:403-681-0791" class="call-button">Call Jereme @ 403-681-0791</a> <!-- This line creates a clickable link that initiates a phone call when clicked. -->
+		</div> <!-- This line ends the div element for the call button container. -->
+		<div class="social-icon-container"> <!-- This line starts a div element for the social icon container. -->
+			<a href="https://www.facebook.com/evco.contracting/" target="_blank"> <!-- This line creates a clickable link that opens in a new tab. -->
+				<img src="./fb2.png" alt="Facebook Icon" class="social-icon"> <!-- This line embeds an image (the Facebook icon). -->
+			</a> <!-- This line ends the clickable link. -->
+		</div> <!-- This line ends the div element for the social icon container. -->
+	</div> <!-- This line ends the div element for the top header. -->
+	<!--END TOP HEADER --> <!-- This line is a comment, indicating the end of the top header section. -->
+	<!--NAV --> <!-- This line is a comment, indicating the start of the navigation section. -->
+	<div class="header"> <!-- This line starts a div element for the header. -->
+		<div class="logo"> <!-- This line starts a div element for the logo. -->
+			<img src="./lg2.png" alt="Your Logo"> <!-- This line embeds an image (the logo). -->
+		</div> <!-- This line ends the div element for the logo. -->
+		<div class="hamburger-menu" onclick="toggleMenu()"> <!-- This line starts a div element for the hamburger menu and adds an onclick event handler. -->
+			<div></div> <!-- These lines create the hamburger icon. -->
+			<div></div>
+			<div></div>
+		</div> <!-- This line ends the div element for the hamburger menu. -->
+		<nav id="menu-container" class="menu-container"> <!-- This line starts a nav element for the menu container. -->
+			<ul class="menu"> <!-- This line starts an unordered list for the menu. -->
+				<a href="home.html"> <!-- These lines create clickable links for the menu items. -->
+				<li>HOME</li></a> <!-- These lines create list items for the menu. -->
+				<a href="services.html">
+				<li>SERVICES</li></a>
+				<a href="gallery.html">
+				<li>GALLERY</li></a>
+				<a href="contact.html">
+				<li>CONTACT</li></a>
+			</ul> <!-- This line ends the unordered list for the menu. -->
+		</nav> <!-- This line ends the nav element for the menu container. -->
+	</div> <!-- This line ends the div element for the header. -->
+	<!--END NAV --> <!-- This line is a comment, indicating the end of the navigation section. -->
+	<!-- GALLERY --> <!-- This line is a comment, indicating the start of the gallery section. -->
+	<section id="gallery"> <!-- This line starts a section element for the gallery. -->
+		<div class="container"> <!-- This line starts a div element for the container. -->
+			<h1>Gallery</h1> <!-- This line creates a heading for the gallery. -->
+			<div class="flex-container"> <!-- This line starts a div element for the flex container. -->
+
+					<!-- PHOTO-CONTAINER 1 --> <!-- This line is a comment, indicating the start of the first photo container. -->
+					<a href="./demo8.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+						<div class="photo"> <!-- This line starts a div element for the photo. -->
+							<img src="./demo8.jpg" alt=""> <!-- This line embeds an image. -->
+							<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+								<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+								<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+							</div> <!-- This line ends the div element for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo. -->
+					</a> <!-- This line ends the clickable link. -->
+					<!-- END PHOTO-CONTAINER 1 --> <!-- This line is a comment, indicating the end of the first photo container. -->
+
+					<!-- PHOTO-CONTAINER 2 --> <!-- This line is a comment, indicating the start of the second photo container. -->
+					<a href="./exc6.png" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+						<div class="photo"> <!-- This line starts a div element for the photo. -->
+							<img src="./exc6.png" alt="Basement Walkout Excavation"> <!-- This line embeds an image with an alt attribute. -->
+							<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+								<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+								<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+							</div> <!-- This line ends the div element for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo. -->
+					</a> <!-- This line ends the clickable link. -->
+					<!-- END PHOTO-CONTAINER 2 --> <!-- This line is a comment, indicating the end of the second photo container. -->
+					<!-- PHOTO-CONTAINER 3 --> <!-- This line is a comment, indicating the start of the third photo container. -->
+					<a href="./exc15.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+						<div class="photo"> <!-- This line starts a div element for the photo. -->
+							<img src="./exc15.jpg" alt="Concrete Removal"> <!-- This line embeds an image with an alt attribute. -->
+							<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+								<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+								<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+							</div> <!-- This line ends the div element for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo. -->
+					</a> <!-- This line ends the clickable link. -->
+					<!-- END PHOTO-CONTAINER 3 --> <!-- This line is a comment, indicating the end of the third photo container. -->
+
+				<!-- PHOTO-CONTAINER 4 --> <!-- This line is a comment, indicating the start of the fourth photo container. -->
+				<a href="./exc12.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./exc12.jpg" alt="Telepost Concrete Cutting"> <!-- This line embeds an image with an alt attribute. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+							<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 4 --> <!-- This line is a comment, indicating the end of the fourth photo container. -->
+
+				<!-- PHOTO-CONTAINER 5 --> <!-- This line is a comment, indicating the start of the fifth photo container. -->
+				<a href="./demo10.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./demo10.jpg" alt="Basement Concrete Break and Remove"> <!-- This line embeds an image with an alt attribute. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+							<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 5 --> <!-- This line is a comment, indicating the end of the fifth photo container. -->
+
+				<!-- PHOTO-CONTAINER 6 --> <!-- This line is a comment, indicating the start of the sixth photo container. -->
+				<a href="./exc1.png" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./exc1.png" alt="Garage Demolition #1"> <!-- This line embeds an image with an alt attribute. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+							<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 6 --> <!-- This line is a comment, indicating the end of the sixth photo container. -->
+
+				<!-- PHOTO-CONTAINER 7 --> <!-- This line is a comment, indicating the start of the seventh photo container. -->
+				<a href="./exc10.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./exc10.jpg" alt="Garage Demolition #2"> <!-- This line embeds an image with an alt attribute. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+							<p></p> <!-- This line creates a paragraph for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 7 --> <!-- This line is a comment, indicating the end of the seventh photo container. -->
+
+				<!-- PHOTO-CONTAINER 8 --> <!-- This line is a comment, indicating the start of the eighth photo container. -->
+				<div class="fade-in"></div> <!-- This line starts and ends a div element with the class "fade-in", which likely refers to a CSS animation. -->
+				<a href="./demo11.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./demo11.jpg" alt="Large Staircase and Driveway Excavation"> <!-- This line embeds an image with an alt attribute. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 8 --> <!-- This line is a comment, indicating the end of the eighth photo container. -->
+
+				<!-- PHOTO-CONTAINER 9 --> <!-- This line is a comment, indicating the start of the ninth photo container. -->
+				<a href="./exc16.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./exc16.jpg" alt=""> <!-- This line embeds an image. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 9 --> <!-- This line is a comment, indicating the end of the ninth photo container. -->
+
+				<!-- PHOTO-CONTAINER 10 --> <!-- This line is a comment, indicating the start of the tenth photo container. -->
+				<a href="./demo3.png" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./demo3.png" alt=""> <!-- This line embeds an image. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 10 --> <!-- This line is a comment, indicating the end of the tenth photo container. -->
+
+				<!-- PHOTO-CONTAINER 11 --> <!-- This line is a comment, indicating the start of the eleventh photo container. -->
+				<a href="./exc14.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo">
+						<img src="./exc14.jpg" alt="">
+							<div class="photo-overlay">
+									h3 class="white-head">Click To Enlarge</h3>
+							</div>
+					</div>
+				</a>
+				<!-- END PHOTO-CONTAINER 11 -->
+				<!-- PHOTO-CONTAINER 12 --> <!-- This line is a comment, indicating the start of the twelfth photo container. -->
+				<a href="./exc19.jpg" class="photo-container" onclick="openModal(this); return false;"> <!-- This line creates a clickable link that opens a modal when clicked. -->
+					<div class="photo"> <!-- This line starts a div element for the photo. -->
+						<img src="./exc19.jpg" alt=""> <!-- This line embeds an image. -->
+						<div class="photo-overlay"> <!-- This line starts a div element for the photo overlay. -->
+							<h3 class="white-head">Click To Enlarge</h3> <!-- This line creates a heading for the photo overlay. -->
+						</div> <!-- This line ends the div element for the photo overlay. -->
+					</div> <!-- This line ends the div element for the photo. -->
+				</a> <!-- This line ends the clickable link. -->
+				<!-- END PHOTO-CONTAINER 12 --> <!-- This line is a comment, indicating the end of the twelfth photo container. -->
+			</div> <!-- This line ends the div element for the flex container. -->
+		</div> <!-- This line ends the div element for the container. -->
+	</section> <!-- This line ends the section element for the gallery. -->
+	<!-- END GALLERY --> <!-- This line is a comment, indicating the end of the gallery section. -->
+	<br> <!-- This line creates a line break. -->
+	<br /> <!-- This line creates a line break. -->
+	<!--FOOTER --> <!-- This line is a comment, indicating the start of the footer section. -->
+	<div class="fade-in"> <!-- This line starts a div element with the class "fade-in", which likely refers to a CSS animation. -->
+		<div id="footer"> <!-- This line starts a div element for the footer. -->
+			<div class="footer-content"> <!-- This line starts a div element for the footer content. -->
+				www.evcocontracting.ca &nbsp;|&nbsp; &copy; 2023 |&nbsp; <!-- This line creates the footer text. -->
+				<div class="social-icon-container"> <!-- This line starts a div element for the social icon container. -->
+					<a href="https://www.facebook.com/evco.contracting/" target="_blank"> <!-- This line creates a clickable link that opens in a new tab. -->
+						<img src="./fb2.png" alt="Facebook Icon" class="social-icon footer-social-icon"> <!-- This line embeds an image (the Facebook icon). -->
+					</a> <!-- This line ends the clickable link. -->
+				</div> <!-- This line ends the div element for the social icon container. -->
+			</div> <!-- This line ends the div element for the footer content. -->
+		</div> <!-- This line ends the div element for the footer. -->
+	</div> <!-- This line ends the div element with the class "fade-in". -->
+	<!-- END FOOTER --> <!-- This line is a comment, indicating the end of the footer section. -->
+
+	<div id="myModal" class="modal" onclick="closeModal()"> <!-- This line starts a div element for the modal and adds an onclick event handler. -->
+		<span id="closeBtn" onclick="closeModal()">&times;</span> <!-- This line creates a span element for the close button and adds an onclick event handler. -->
+		<img class="modal-content" id="modalImg"> <!-- This line embeds an image for the modal content. -->
+	</div> <!-- This line ends the div element for the modal. -->
+
+	<script src="./main.js"></script> <!-- This line includes an external JavaScript file. -->
+
+	<!-- Google tag (gtag.js) --> <amp-analytics type="gtag" data-credentials="include"> <!-- This line starts an AMP Analytics element for Google Tag Manager. -->
+	<script type="application/json"> { "vars": { "gtag_id": "AW-11426771581", "config": { "AW-11426771581": { "groups": "default" } } }, "triggers": { } } </script> <!-- This line includes a script element with a JSON object for Google Tag Manager. -->
+	</amp-analytics> <!-- This line ends the AMP Analytics element. -->
+</body> <!-- This line ends the body element. -->
+</html> <!-- This line ends the HTML document. --
